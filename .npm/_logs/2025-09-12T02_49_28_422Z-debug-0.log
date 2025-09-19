@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/likyung/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm info @storybook/addon-designs version
+7 verbose argv "info" "@storybook/addon-designs" "version"
+8 verbose logfile logs-max:10 dir:/Users/likyung/.npm/_logs/2025-09-12T02_49_28_422Z-
+9 verbose logfile /Users/likyung/.npm/_logs/2025-09-12T02_49_28_422Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/@storybook%2faddon-designs 406ms (cache miss)
+13 verbose cwd /Users/likyung
+14 verbose os Darwin 23.4.0
+15 verbose node v22.19.0
+16 verbose npm  v10.9.3
+17 verbose exit 0
+18 info ok

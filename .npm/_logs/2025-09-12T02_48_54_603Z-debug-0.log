@@ -1,0 +1,23 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/likyung/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec @storybook/cli@9.1.5 add @storybook/addon-designs
+7 verbose argv "exec" "--yes" "--" "@storybook/cli@9.1.5" "add" "@storybook/addon-designs"
+8 verbose logfile logs-max:10 dir:/Users/likyung/.npm/_logs/2025-09-12T02_48_54_603Z-
+9 verbose logfile /Users/likyung/.npm/_logs/2025-09-12T02_48_54_603Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmjs.org/@storybook%2fcli attempt 1 failed with ETIMEDOUT
+14 http fetch GET 200 https://registry.npmjs.org/@storybook%2fcli 16066ms (cache revalidated)
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+17 verbose cwd /Users/likyung
+18 verbose os Darwin 23.4.0
+19 verbose node v22.19.0
+20 verbose npm  v10.9.3
+21 verbose exit 0
+22 info ok

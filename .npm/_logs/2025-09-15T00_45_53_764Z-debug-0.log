@@ -1,0 +1,391 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/likyung/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/Users/likyung/.npm/_logs/2025-09-15T00_45_53_764Z-
+9 verbose logfile /Users/likyung/.npm/_logs/2025-09-15T00_45_53_764Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@adobe/css-tools': [ '4.4.4' ],
+15 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+15 silly audit   '@babel/code-frame': [ '7.27.1' ],
+15 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+15 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+15 silly audit   '@babel/parser': [ '7.28.4' ],
+15 silly audit   '@babel/runtime': [ '7.28.4' ],
+15 silly audit   '@babel/types': [ '7.28.4' ],
+15 silly audit   '@bcoe/v8-coverage': [ '1.0.2' ],
+15 silly audit   '@chromatic-com/storybook': [ '4.1.1' ],
+15 silly audit   chromatic: [ '12.2.0', '13.1.4' ],
+15 silly audit   '@esbuild/aix-ppc64': [ '0.25.9' ],
+15 silly audit   '@esbuild/android-arm': [ '0.25.9' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/android-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.25.9' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/netbsd-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/openbsd-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/openharmony-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.25.9' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.25.9' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.25.9' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.25.9' ],
+15 silly audit   '@figspec/components': [ '1.0.3' ],
+15 silly audit   '@lit/reactive-element': [ '1.6.3', '2.1.1' ],
+15 silly audit   lit: [ '2.8.0', '3.3.1' ],
+15 silly audit   'lit-element': [ '3.3.3', '4.2.1' ],
+15 silly audit   'lit-html': [ '2.8.0', '3.3.1' ],
+15 silly audit   '@figspec/react': [ '1.0.4' ],
+15 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+15 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+15 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+15 silly audit   '@lit-labs/react': [ '1.2.1' ],
+15 silly audit   '@lit-labs/ssr-dom-shim': [ '1.4.0' ],
+15 silly audit   '@mdx-js/react': [ '3.1.1' ],
+15 silly audit   '@neoconfetti/react': [ '1.0.0' ],
+15 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+15 silly audit   '@polka/url': [ '1.0.0-next.29' ],
+15 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-android-arm64': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-darwin-arm64': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-darwin-x64': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-freebsd-x64': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.50.1' ],
+15 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.50.1' ],
+15 silly audit   '@storybook/addon-a11y': [ '9.1.5' ],
+15 silly audit   '@storybook/addon-designs': [ '10.0.2' ],
+15 silly audit   '@storybook/addon-docs': [ '9.1.5' ],
+15 silly audit   '@storybook/addon-vitest': [ '9.1.5' ],
+15 silly audit   '@storybook/builder-vite': [ '9.1.5' ],
+15 silly audit   '@storybook/csf-plugin': [ '9.1.5' ],
+15 silly audit   '@storybook/global': [ '5.0.0' ],
+15 silly audit   '@storybook/icons': [ '1.4.0' ],
+15 silly audit   '@storybook/react': [ '9.1.5' ],
+15 silly audit   '@storybook/react-dom-shim': [ '9.1.5' ],
+15 silly audit   '@storybook/web-components': [ '9.1.5' ],
+15 silly audit   '@storybook/web-components-vite': [ '9.1.5' ],
+15 silly audit   '@testing-library/dom': [ '10.4.1' ],
+15 silly audit   '@testing-library/jest-dom': [ '6.8.0' ],
+15 silly audit   'dom-accessibility-api': [ '0.6.3', '0.5.16' ],
+15 silly audit   '@testing-library/user-event': [ '14.6.1' ],
+15 silly audit   '@types/aria-query': [ '5.0.4' ],
+15 silly audit   '@types/chai': [ '5.2.2' ],
+15 silly audit   '@types/deep-eql': [ '4.0.2' ],
+15 silly audit   '@types/estree': [ '1.0.8' ],
+15 silly audit   '@types/mdx': [ '2.0.13' ],
+15 silly audit   '@types/react': [ '19.1.12' ],
+15 silly audit   '@types/trusted-types': [ '2.0.7' ],
+15 silly audit   '@vitest/browser': [ '3.2.4' ],
+15 silly audit   '@vitest/coverage-v8': [ '3.2.4' ],
+15 silly audit   '@vitest/expect': [ '3.2.4' ],
+15 silly audit   '@vitest/mocker': [ '3.2.4' ],
+15 silly audit   '@vitest/pretty-format': [ '3.2.4' ],
+15 silly audit   '@vitest/runner': [ '3.2.4' ],
+15 silly audit   '@vitest/snapshot': [ '3.2.4' ],
+15 silly audit   '@vitest/spy': [ '3.2.4' ],
+15 silly audit   '@vitest/utils': [ '3.2.4' ],
+15 silly audit   acorn: [ '8.15.0' ],
+15 silly audit   'ansi-regex': [ '5.0.1', '6.2.2' ],
+15 silly audit   'ansi-styles': [ '5.2.0', '4.3.0', '6.2.3' ],
+15 silly audit   'aria-query': [ '5.3.0' ],
+15 silly audit   'assertion-error': [ '2.0.1' ],
+15 silly audit   'ast-types': [ '0.16.1' ],
+15 silly audit   'ast-v8-to-istanbul': [ '0.3.5' ],
+15 silly audit   'js-tokens': [ '9.0.1', '4.0.0' ],
+15 silly audit   'axe-core': [ '4.10.3' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   'better-opn': [ '3.0.2' ],
+15 silly audit   'brace-expansion': [ '2.0.2' ],
+15 silly audit   cac: [ '6.7.14' ],
+15 silly audit   chai: [ '5.3.3' ],
+15 silly audit   'check-error': [ '2.1.1' ],
+15 silly audit   'color-convert': [ '2.0.1' ],
+15 silly audit   'color-name': [ '1.1.4' ],
+15 silly audit   'cross-spawn': [ '7.0.6' ],
+15 silly audit   'css.escape': [ '1.5.1' ],
+15 silly audit   csstype: [ '3.1.3' ],
+15 silly audit   debug: [ '4.4.1' ],
+15 silly audit   'deep-eql': [ '5.0.2' ],
+15 silly audit   'define-lazy-prop': [ '2.0.0' ],
+15 silly audit   dequal: [ '2.0.3' ],
+15 silly audit   eastasianwidth: [ '0.2.0' ],
+15 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+15 silly audit   'es-module-lexer': [ '1.7.0' ],
+15 silly audit   esbuild: [ '0.25.9' ],
+15 silly audit   'esbuild-register': [ '3.6.0' ],
+15 silly audit   esprima: [ '4.0.1' ],
+15 silly audit   'estree-walker': [ '3.0.3' ],
+15 silly audit   'expect-type': [ '1.2.2' ],
+15 silly audit   fdir: [ '6.5.0' ],
+15 silly audit   filesize: [ '10.1.6' ],
+15 silly audit   'foreground-child': [ '3.3.1' ],
+15 silly audit   fsevents: [ '2.3.3', '2.3.2' ],
+15 silly audit   glob: [ '10.4.5' ],
+15 silly audit   'graceful-fs': [ '4.2.11' ],
+15 silly audit   'has-flag': [ '4.0.0' ],
+15 silly audit   'html-escaper': [ '2.0.2' ],
+15 silly audit   'indent-string': [ '4.0.0' ],
+15 silly audit   'is-docker': [ '2.2.1' ],
+15 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+15 silly audit   'is-wsl': [ '2.2.0' ],
+15 silly audit   isexe: [ '2.0.0' ],
+15 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+15 silly audit   'istanbul-lib-report': [ '3.0.1' ],
+15 silly audit   'istanbul-lib-source-maps': [ '5.0.6' ],
+15 silly audit   'istanbul-reports': [ '3.2.0' ],
+15 silly audit   jackspeak: [ '3.4.3' ],
+15 silly audit   jsonfile: [ '6.2.0' ],
+15 silly audit   kleur: [ '3.0.3' ],
+15 silly audit   loupe: [ '3.2.1' ],
+15 silly audit   'lru-cache': [ '10.4.3' ],
+15 silly audit   'lz-string': [ '1.5.0' ],
+15 silly audit   'magic-string': [ '0.30.19' ],
+15 silly audit   magicast: [ '0.3.5' ],
+15 silly audit   'make-dir': [ '4.0.0' ],
+15 silly audit   'min-indent': [ '1.0.1' ],
+15 silly audit   minimatch: [ '9.0.5' ],
+15 silly audit   minipass: [ '7.1.2' ],
+15 silly audit   mrmime: [ '2.0.1' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   nanoid: [ '3.3.11' ],
+15 silly audit   open: [ '8.4.2' ],
+15 silly audit   'package-json-from-dist': [ '1.0.1' ],
+15 silly audit   'path-key': [ '3.1.1' ],
+15 silly audit   'path-scurry': [ '1.11.1' ],
+15 silly audit   pathe: [ '2.0.3' ],
+15 silly audit   pathval: [ '2.0.1' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '4.0.3' ],
+15 silly audit   playwright: [ '1.55.0' ],
+15 silly audit   'playwright-core': [ '1.55.0' ],
+15 silly audit   postcss: [ '8.5.6' ],
+15 silly audit   'pretty-format': [ '27.5.1' ],
+15 silly audit   prompts: [ '2.4.2' ],
+15 silly audit   react: [ '19.1.1' ],
+15 silly audit   'react-dom': [ '19.1.1' ],
+15 silly audit   'react-is': [ '17.0.2' ],
+15 silly audit   recast: [ '0.23.11' ],
+15 silly audit   redent: [ '3.0.0' ],
+15 silly audit   rollup: [ '4.50.1' ],
+15 silly audit   scheduler: [ '0.26.0' ],
+15 silly audit   semver: [ '7.7.2' ],
+15 silly audit   'shebang-command': [ '2.0.0' ],
+15 silly audit   'shebang-regex': [ '3.0.0' ],
+15 silly audit   siginfo: [ '2.0.0' ],
+15 silly audit   'signal-exit': [ '4.1.0' ],
+15 silly audit   sirv: [ '3.0.2' ],
+15 silly audit   sisteransi: [ '1.0.5' ],
+15 silly audit   'source-map': [ '0.6.1' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   stackback: [ '0.0.2' ],
+15 silly audit   'std-env': [ '3.9.0' ],
+15 silly audit   storybook: [ '9.1.5' ],
+15 silly audit   'storybook-addon-designs': [ '6.3.1' ],
+15 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+15 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+15 silly audit   'strip-indent': [ '3.0.0' ],
+15 silly audit   'strip-literal': [ '3.0.0' ],
+15 silly audit   'supports-color': [ '7.2.0' ],
+15 silly audit   'test-exclude': [ '7.0.1' ],
+15 silly audit   'tiny-invariant': [ '1.3.3' ],
+15 silly audit   tinybench: [ '2.9.0' ],
+15 silly audit   tinyexec: [ '0.3.2' ],
+15 silly audit   tinyglobby: [ '0.2.15' ],
+15 silly audit   tinypool: [ '1.1.1' ],
+15 silly audit   tinyrainbow: [ '2.0.0' ],
+15 silly audit   tinyspy: [ '4.0.3' ],
+15 silly audit   totalist: [ '3.0.1' ],
+15 silly audit   'ts-dedent': [ '2.2.0' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   universalify: [ '2.0.1' ],
+15 silly audit   unplugin: [ '1.16.1' ],
+15 silly audit   vite: [ '7.1.5' ],
+15 silly audit   'vite-node': [ '3.2.4' ],
+15 silly audit   vitest: [ '3.2.4' ],
+15 silly audit   'webpack-virtual-modules': [ '0.6.2' ],
+15 silly audit   which: [ '2.0.2' ],
+15 silly audit   'why-is-node-running': [ '2.3.0' ],
+15 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+15 silly audit   ws: [ '8.18.3' ]
+15 silly audit }
+16 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-win32-x64-msvc
+17 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-win32-x64-msvc' ]
+18 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-win32-ia32-msvc
+19 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-win32-ia32-msvc' ]
+20 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-win32-arm64-msvc
+21 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-win32-arm64-msvc' ]
+22 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-openharmony-arm64
+23 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-openharmony-arm64' ]
+24 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-x64-musl
+25 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-x64-musl' ]
+26 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-x64-gnu
+27 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-x64-gnu' ]
+28 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-s390x-gnu
+29 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-s390x-gnu' ]
+30 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-riscv64-musl
+31 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-riscv64-musl' ]
+32 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-riscv64-gnu
+33 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-riscv64-gnu' ]
+34 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-ppc64-gnu
+35 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-ppc64-gnu' ]
+36 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-loongarch64-gnu
+37 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-loongarch64-gnu' ]
+38 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-arm64-musl
+39 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-arm64-musl' ]
+40 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-arm64-gnu
+41 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-arm64-gnu' ]
+42 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-arm-musleabihf
+43 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-arm-musleabihf' ]
+44 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-linux-arm-gnueabihf
+45 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-linux-arm-gnueabihf' ]
+46 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-freebsd-x64
+47 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-freebsd-x64' ]
+48 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-freebsd-arm64
+49 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-freebsd-arm64' ]
+50 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-darwin-x64
+51 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-darwin-x64' ]
+52 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-android-arm64
+53 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-android-arm64' ]
+54 verbose reify failed optional dependency /Users/likyung/node_modules/@rollup/rollup-android-arm-eabi
+55 silly reify mark deleted [ '/Users/likyung/node_modules/@rollup/rollup-android-arm-eabi' ]
+56 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/win32-x64
+57 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/win32-x64' ]
+58 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/win32-ia32
+59 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/win32-ia32' ]
+60 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/win32-arm64
+61 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/win32-arm64' ]
+62 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/sunos-x64
+63 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/sunos-x64' ]
+64 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/openharmony-arm64
+65 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/openharmony-arm64' ]
+66 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/openbsd-x64
+67 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/openbsd-x64' ]
+68 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/openbsd-arm64
+69 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/openbsd-arm64' ]
+70 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/netbsd-x64
+71 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/netbsd-x64' ]
+72 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/netbsd-arm64
+73 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/netbsd-arm64' ]
+74 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-x64
+75 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-x64' ]
+76 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-s390x
+77 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-s390x' ]
+78 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-riscv64
+79 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-riscv64' ]
+80 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-ppc64
+81 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-ppc64' ]
+82 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-mips64el
+83 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-mips64el' ]
+84 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-loong64
+85 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-loong64' ]
+86 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-ia32
+87 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-ia32' ]
+88 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-arm64
+89 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-arm64' ]
+90 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/linux-arm
+91 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/linux-arm' ]
+92 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/freebsd-x64
+93 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/freebsd-x64' ]
+94 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/freebsd-arm64
+95 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/freebsd-arm64' ]
+96 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/darwin-x64
+97 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/darwin-x64' ]
+98 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/android-x64
+99 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/android-x64' ]
+100 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/android-arm64
+101 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/android-arm64' ]
+102 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/android-arm
+103 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/android-arm' ]
+104 verbose reify failed optional dependency /Users/likyung/node_modules/@esbuild/aix-ppc64
+105 silly reify mark deleted [ '/Users/likyung/node_modules/@esbuild/aix-ppc64' ]
+106 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 308ms
+107 silly audit report {}
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 silly ADD
+114 silly ADD
+115 silly ADD
+116 silly ADD
+117 silly ADD
+118 silly ADD
+119 silly ADD
+120 silly ADD
+121 silly ADD
+122 silly ADD
+123 silly ADD
+124 silly ADD
+125 silly ADD
+126 silly ADD
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 silly ADD
+132 silly ADD
+133 silly ADD
+134 silly ADD
+135 silly ADD
+136 silly ADD
+137 silly ADD
+138 silly ADD
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 verbose cwd /Users/likyung
+154 verbose os Darwin 23.4.0
+155 verbose node v22.19.0
+156 verbose npm  v10.9.3
+157 verbose exit 0
+158 info ok
